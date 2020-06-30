@@ -1,5 +1,34 @@
 local diff = {
 	["keyDiffs"] = {
+		["d100pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+				},
+			},
+			["name"] = "STT/TWS Toggle",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
+		["d1126pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+				},
+			},
+			["name"] = "NAV Update/MAGIC unlock",
+		},
+		["d136pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+				},
+			},
+			["name"] = "Jammer ACTIVATE/Standby Toggle",
+		},
 		["d276pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -8,26 +37,10 @@ local diff = {
 			},
 			["name"] = "Magic Slave/AG Designate/INS Position Update",
 		},
-		["d3193pnilu3193cd7vd0.5vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
-			},
-			["name"] = "Air Refuel Transfer Switch ON (DAY)",
-		},
-		["d3193pnilu3193cd7vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
-			["name"] = "Air Refuel Transfer Switch OFF ",
-		},
 		["d357pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
+					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
 			["name"] = "Decoy Program release",
@@ -35,9 +48,6 @@ local diff = {
 		["d358pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-				[2] = {
 					["key"] = "JOY_BTN3",
 				},
 			},
@@ -95,6 +105,14 @@ local diff = {
 					["key"] = "JOY_BTN4",
 				},
 			},
+		},
+		["d92pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "TDC DEPRESS (Lock Target)",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "Vue à gauche lentement",

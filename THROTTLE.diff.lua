@@ -40,7 +40,7 @@ local diff = {
 	},
 	["keyDiffs"] = {
 		["d100pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "STT/TWS Toggle (Target Lock)",
+			["name"] = "STT/TWS Toggle",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
@@ -78,14 +78,6 @@ local diff = {
 				},
 			},
 			["name"] = "FBW G-Limiter Mode TOGGLE",
-		},
-		["d136pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
-			["name"] = "Jammer ACTIVATE/Standby Toggle",
 		},
 		["d1379pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -307,6 +299,17 @@ local diff = {
 			},
 			["name"] = "NVG Toggle",
 		},
+		["d444pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+					["reformers"] = {
+						[1] = "RShift",
+					},
+				},
+			},
+			["name"] = "Sun Visor Toggle",
+		},
 		["d459pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -392,18 +395,10 @@ local diff = {
 				},
 			},
 		},
-		["dnilp139u230cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "Radar Antenna CENTER",
-		},
 		["dnilp141u230cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN24",
+					["key"] = "JOY_BTN28",
 				},
 			},
 			["name"] = "Radar Antenna UP",
@@ -411,7 +406,7 @@ local diff = {
 		["dnilp142u230cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN26",
+					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "Radar Antenna DOWN",
